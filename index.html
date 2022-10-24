@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IconArt</title>
-    <link rel="icon" href="./assets/img/icon.png" type="image/png" />
+    <link rel="icon" href="/assets/img/icon.png" type="image/png" />
     <!-- Boostrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <!-- Icon Fontawsome -->
@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background-color: #22577e">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="assets/img/icon.png" alt="icon" width="65" height="30" />
+          <img src="/assets/img/icon.png" alt="icon" width="65" height="30" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,14 +29,14 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/assets/article.html">Article</a>
+              <a class="nav-link" href="/assets/signin.html">Article</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/assets/aboutus.html">About us</a>
+              <a class="nav-link" href="/assets/signin.html">About Us</a>
             </li>
           </ul>
-          <a class="nav-link text-white p-2" href="/assets/login.html">Masuk</a>
-          <a href="#">
+          <a class="nav-link text-white p-2" href="/assets/signin.html">Masuk</a>
+          <a href="/assets/signup.html">
             <button type="button" class="btn button-nav">Daftar</button>
           </a>
         </div>
@@ -84,41 +84,12 @@
     <!-- Akhir layanan -->
 
     <!-- Up Coming Next -->
-    <section id="artikel-awal">
+    <section style="background-color: #e2edff">
       <div class="container-fluid ms-auto pt-5 pb-5">
-        <div class="container text-start">
+        <div class="container text-center">
           <h2>Baca artikel menarik seputar seni</h2>
-          <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-4">
-              <div class="card crop-img">
-                <img src="/assets/img/art1.jpg" class="card-img-top" width="200" height="250" />
-                <div class="card-body">
-                  <h5 class="card-title">Seni Rupa</h5>
-                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis odit atque nam animi dolores itaque.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card crop-img">
-                <img src="/assets/img/art1.jpg" class="card-img-top" width="200" height="250" />
-                <div class="card-body">
-                  <h5 class="card-title">Seni Rupa</h5>
-                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis odit atque nam animi dolores itaque.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card crop-img">
-                <img src="/assets/img/art1.jpg" class="card-img-top" width="200" height="250" />
-                <div class="card-body">
-                  <h5 class="card-title">Seni Rupa</h5>
-                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis odit atque nam animi dolores itaque.</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+        <div id="article-awal"></div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5584ac" fill-opacity="1" d="M0,32L480,160L960,64L1440,224L1440,320L960,320L480,320L0,320Z"></path></svg>
     </section>
@@ -135,7 +106,7 @@
             <div class="col-md-8">
               <div class="card-body-ajakan mx-auto text-center pt-5">
                 <h2>TUNGGU APA LAGI AYO GABUNG SEKARANG</h2>
-                <a href="/assets/login.html">
+                <a href="/assets/signup.html">
                   <button type="button" class="btn btn-primary btn-lg mt-5">LET'S JOIN US</button>
                 </a>
               </div>
@@ -160,7 +131,7 @@
               <a href="#" class="text-white text-decoration-none fs-5 me-4">
                 <i class="fa-brands fa-twitter"></i>
               </a>
-              <a href="#" class="text-white text-decoration-none fs-5 me-4">
+              <a href="https://www.instagram.com/aqillanl" class="text-white text-decoration-none fs-5 me-4">
                 <i class="fa-brands fa-instagram"></i>
               </a>
             </div>
@@ -169,6 +140,9 @@
       </div>
     </section>
     <!-- akhir footer -->
+
+    <!-- js -->
+    <script src="/index.js"></script>
 
     <!-- Boostrap Java -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

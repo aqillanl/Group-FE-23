@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IconArt</title>
+    <link rel="icon" href="/assets/img/icon.png" type="image/png" />
+    <!-- Boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <!-- Icon Fontawsome -->
+    <script src="https://kit.fontawesome.com/18a3e8c893.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background-color: #22577e">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/icon.png" alt="icon" width="65" height="30" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Article</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+          <a href="/assets/signup.html">
+            <button type="button" class="btn button-nav">Daftar</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!-- Content -->
+    <section class="main py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center pt-5">
+            <h2>Welcome Back</h2>
+            <p>Let's continue what you learn about Art</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 offset-md-4">
+              <div class="login-form mt-4 p-4">
+                <form id="formSignIn" class="row g-3" method="GET">
+                  <h4 class="text-center">Sign In</h4>
+                  <div class="col-12">
+                    <label>Username</label>
+                    <input type="text" id="username" name="username" class="form-control" placeholder="Username" />
+                  </div>
+                  <div class="col-12">
+                    <label>Password</label>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Password" />
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign In</button>
+                  </div>
+                </form>
+                <hr class="mt-4" />
+                <div class="col-12">
+                  <p class="text-center mb-0">Belum Memiliki Akun ?, Silahkan <a href="signup.html">Daftar</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir -->
+
+    <!-- footer -->
+    <section class="py-5 text-center text-white" style="background-color: #22577e">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col">
+            <h1 class="pb-3">Follow For More</h1>
+            <hr class="w-25 mx-auto" />
+            <div class="py-3">
+              <a href="#" class="text-white text-decoration-none fs-5 me-4">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="text-white text-decoration-none fs-5 me-4">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/aqillanl" class="text-white text-decoration-none fs-5 me-4">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir footer -->
+    <!-- js -->
+    <script src="/assets/script/signin.js"></script>
+    <!-- Boostrap Java -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

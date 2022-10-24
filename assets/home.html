@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IconArt</title>
+    <link rel="icon" href="/assets/img/icon.png" type="image/png" />
+    <!-- Boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <!-- Icon Fontawsome -->
+    <script src="https://kit.fontawesome.com/18a3e8c893.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background-color: #22577e">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/icon.png" alt="icon" width="65" height="30" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="article.html">Article</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn button-nav" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="fa-solid fa-user"></i>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Profile</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="progres-bar">
+                      <div class="judul">Progress Bar</div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a class="modal-item" href="#" onclick="logout()">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Logout</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!-- Banner -->
+    <section id="banner">
+      <div class="container-fluid">
+        <div class="container text-center">
+          <h4 class="display-1">Temukan Minat dan Bakatmu!</h4>
+          <h3 class="display-6">Pelajari lebih lanjut mengenai Seni Rupa!</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Banner -->
+
+    <!-- footer -->
+    <section class="py-5 text-center text-white" style="background-color: #22577e">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col">
+            <h1 class="pb-3">Follow For More</h1>
+            <hr class="w-25 mx-auto" />
+            <div class="py-3">
+              <a href="#" class="text-white text-decoration-none fs-5 me-4">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="text-white text-decoration-none fs-5 me-4">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/aqillanl" class="text-white text-decoration-none fs-5 me-4">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir footer -->
+
+    <!-- js -->
+    <script src="/assets/script/logout.js"></script>
+
+    <!-- Boostrap Java -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
