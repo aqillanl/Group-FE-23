@@ -22,3 +22,7 @@ body {
   color: white;
   background-color: #5584ac;
 }
+
+.progres-bar {
+  margin: 2em;
+}

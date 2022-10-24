@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IconArt</title>
+    <link rel="icon" href="/assets/img/icon.png" type="image/png" />
     <!-- Boostrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <!-- Icon Fontawsome -->
@@ -25,19 +26,193 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="/assets/home.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/assets/article.html">Article</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/assets/aboutus.html">About us</a>
+              <a class="nav-link active" href="/assets/aboutus.html">About Us</a>
             </li>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn button-nav" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="fa-solid fa-user"></i>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Profile</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="progres-bar">
+                      <div class="judul">Progress Bar</div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a class="modal-item" href="#" onclick="logout()">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Logout</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </ul>
         </div>
       </div>
     </nav>
+
     <!--Akhir Navbar-->
+
+    <!-- aboutus -->
+    <section id="aboutus">
+      <div class="about" style="padding: 30px">
+        <div class="container text-center p-3">
+          <h1 class="p-3"><strong>About Us</strong></h1>
+          <h3 class="mb-5">
+            Icon Art merupakan sebuah platform website untuk memfasilitasi anak <br />
+            muda khususnya siswa SMA yang ingin mempelajari lebih lanjut <br />
+            mengenai Seni, khususnya dalam seni rupa.
+          </h3>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,96L0,64L240,64L240,160L480,160L480,224L720,224L720,32L960,32L960,192L1200,192L1200,256L1440,256L1440,320L1200,320L1200,320L960,320L960,320L720,320L720,320L480,320L480,320L240,320L240,320L0,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir aboutus -->
+
+    <!-- awal features -->
+    <section id="features" style="background-color: #e2edff">
+      <div class="countainer text-center p-3">
+        <h1><strong>OUR FEATURES</strong></h1>
+        <hr class="border border-2 border-dark mx-auto w-25 bg-dark" />
+
+        <div class="py-4 pt-5">
+          <div class="row text-center">
+            <div class="col-lg-4">
+              <img class="img-fluid" src="/assets/img/features.png" style="height: 80%; width: 80%" alt="thumbnail-1.jpeg" />
+            </div>
+            <div class="col-lg-8">
+              <div class="title py-2">
+                <h2>Materi Pembelajaran Menarik</h2>
+              </div>
+              <div class="paragraph">
+                <h4 style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis">
+                  IconArt menyediakan materi - materi pembelajaran yang lengkap tentang seni rupa. Di mana materi yang diberikan ini bisa berguna untuk mengasah kemampuan pembelajaran tentang seni rupa.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#5584ac"
+          fill-opacity="1"
+          d="M0,0L0,64L240,64L240,32L480,32L480,160L720,160L720,192L960,192L960,288L1200,288L1200,320L1440,320L1440,320L1200,320L1200,320L960,320L960,320L720,320L720,320L480,320L480,320L240,320L240,320L0,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir features -->
+
+    <!-- awal author -->
+    <section id="author" style="background-color: #5584ac">
+      <div class="container ms-auto pt-5 pb-5 text-white">
+        <h1 style="text-align: center"><strong> OUR TEAM </strong></h1>
+        <hr class="border border-2 border-light mx-auto w-50 bg-light" />
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card" style="border-radius: 15px">
+              <div class="card-body text-center text-black">
+                <h3 class="mb-2 username">Aqilla Noor Lazuardi</h3>
+                <h4>Front-end</h4>
+                <h6>Semarang, Jawa Tengah</h6>
+                <div class="mb-4 py-2">
+                  <a href="https://github.com/aqillanl">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fa-brands fa-github"></i>
+                    </button>
+                  </a>
+                  <a href="https://www.linkedin.com/in/aqilla-lazuardi-024a16252/">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </button>
+                  </a>
+                  <a href="https://www.instagram.com/aqillanl/">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fab fa-instagram fa-lg"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="border-radius: 15px">
+              <div class="card-body text-center text-black">
+                <h3 class="mb-2 username">Huriyah Afiyah</h3>
+                <h4>Front-end</h4>
+                <h6>Surabaya, Jawa Timur</h6>
+                <div class="mb-4 py-2">
+                  <a href="">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fa-brands fa-github"></i>
+                    </button>
+                  </a>
+                  <a href="">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </button>
+                  </a>
+                  <a href="">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fab fa-instagram fa-lg"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="border-radius: 15px">
+              <div class="card-body text-center text-black">
+                <h3 class="mb-2 username">Muklah Isa Dewa</h3>
+                <h4>Front-end</h4>
+                <h6>Malang, Jawa Timur</h6>
+                <div class="mb-4 py-2">
+                  <a href="https://github.com/muklas-id">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fa-brands fa-github"></i>
+                    </button>
+                  </a>
+                  <a href="https://www.linkedin.com/in/muklas-isa-dewa-637672234/">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </button>
+                  </a>
+                  <a href="https://www.instagram.com/muklas.id_/">
+                    <button type="button" class="btn btn-outline-primary btn-floating">
+                      <i class="fab fa-instagram fa-lg"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir author -->
 
     <!-- footer -->
     <section class="py-5 text-center text-white" style="background-color: #22577e">
@@ -62,6 +237,10 @@
       </div>
     </section>
     <!-- akhir footer -->
+
+    <!-- js -->
+    <script src="/assets/script/logout.js"></script>
+
     <!-- Boostrap Java -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
