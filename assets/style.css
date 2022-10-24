@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 #banner {
-  background-image: url("/assets/img/17545.jpg");
+  background-image: url("/assets/img/banner.png");
   background-size: cover;
   padding-top: 20%;
   padding-bottom: 20%;
