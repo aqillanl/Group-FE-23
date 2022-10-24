@@ -4,20 +4,11 @@ body {
   padding: 0;
   margin: 0;
 }
-
 #banner {
   background-image: url("/assets/img/banner.png");
   background-size: cover;
   padding-top: 20%;
   padding-bottom: 20%;
-}
-
-#artikel-awal {
-  background-color: #e2edff;
-}
-
-#ajakan {
-  margin: 0;
 }
 
 .button-nav {
@@ -30,4 +21,8 @@ body {
 .button-nav:hover {
   color: white;
   background-color: #5584ac;
+}
+
+.progres-bar {
+  margin: 2em;
 }
