@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 #banner {
-  background-image: url("/assets/img/banner.png");
+  background-image: url("/assets/img/17545.jpg");
   background-size: cover;
   padding-top: 20%;
   padding-bottom: 20%;
@@ -21,4 +21,8 @@ body {
 .button-nav:hover {
   color: white;
   background-color: #5584ac;
+}
+
+.progres-bar {
+  margin: 2em;
 }
